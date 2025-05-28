@@ -2,9 +2,6 @@ function comprar() {
     let tipoDeIngresso = document.getElementById('tipo-ingresso');
     let quantidade = parseInt(document.getElementById('qtd').value);
 
-    // alert(tipoDeIngresso.value);
-    // alert(quantidade.value);
-
     // Verifica se o campo quantidade está preenchido e é um número positivo:
     if(isNaN(quantidade) || quantidade <= 0) {
         alert('Por favor, insira uma quantidade válida!');
